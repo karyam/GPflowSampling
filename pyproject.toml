@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpflow_sampling"
+version = "0.1.1"
+description = ""
+authors = ["James T. Wilson"]
+
+[tool.poetry.dependencies]
+python = ">=3.7, <3.11"
+tensorflow-probability = "^0.16.0"
+tensorflow = "^2.8.0"
+tfp-nightly = "^0.17.0-alpha.20220408"
+tqdm = "^4.64.0"
+gpflow = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
