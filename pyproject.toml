@@ -8,7 +8,6 @@ authors = ["James T. Wilson"]
 python = ">=3.7, <3.11"
 tensorflow-probability = "^0.16.0"
 tensorflow = "^2.8.0"
-tfp-nightly = "^0.17.0-alpha.20220408"
 tqdm = "^4.64.0"
 gpflow = "^2.4.0"
 
